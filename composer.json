@@ -1,0 +1,30 @@
+{
+  "name": "oit/codeup-yihai-adminlte",
+  "description": "codeup-yihai adminlte theme",
+  "keywords": [
+    "codeup",
+    "yihai",
+    "orangeit",
+    "oit",
+    "yii2",
+    "framework",
+    "adminlte"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "upik",
+      "email": "upxsal@gmail.com"
+    }
+  ],
+  "require": {
+    "oit/codeup-yihai": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "codeup\\adminlte\\": "src"
+    }
+  },
+  "minimum-stability": "dev"
+}
