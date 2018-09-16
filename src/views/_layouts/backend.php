@@ -24,7 +24,7 @@ use yii\helpers\Url;
     <title><?= Html::encode($this->title) ?> | <?= Html::encode(Yii::$app->name) ?></title>
     <?php $this->head() ?>
 </head>
-<body class="hold-transition skin-blue-light fixed sidebar-mini">
+<body class="hold-transition skin-green-light fixed sidebar-mini">
 <?php $this->beginBody(); ?>
 <div class="wrapper">
     <header class="main-header">
@@ -45,7 +45,7 @@ use yii\helpers\Url;
                     <li class="dropdown user user-menu">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                             <i class="fa fa-user"></i> <span
-                                    class="hidden-xs"><?= Yii::$app->user->identity->getFullname(); ?></span>
+                                    class="hidden-xs"><?= Cii::getUserIdentity()->getFullname(); ?></span>
                         </a>
                         <ul class="dropdown-menu">
                             <!-- Menu Footer-->
@@ -101,6 +101,7 @@ use yii\helpers\Url;
                     <p><?= $this->params['headTips'] ?></p>
                 </div>
             <?php endif; ?>
+            <?=\codeup\widgets\Alert::widget();?>
             <?= $content ?>
         </section>
     </div>
