@@ -34,6 +34,7 @@ class Theme extends \codeup\base\Theme
         '{ctheme}alert-' => 'alert-',
         '{ctheme}list-' => 'list-',
         '{ctheme}form-' => 'form-',
+        '{ctheme}input-' => 'input-',
 
 
     ];
