@@ -21,7 +21,7 @@ use yii\helpers\Url;
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?= Html::csrfMetaTags() ?>
-    <title><?= Html::encode($this->title) ?> | <?= Html::encode(Yii::$app->name) ?></title>
+    <title><?= Html::encode($this->title) ?> | <?= Html::encode(Cii::$app->name) ?></title>
     <?php $this->head() ?>
 </head>
 <body class="hold-transition skin-green-light fixed sidebar-mini">

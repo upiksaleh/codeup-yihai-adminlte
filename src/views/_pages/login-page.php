@@ -23,7 +23,7 @@ background:#d2d6de;
     <?=Html::endTag('div');?>
     <div class="login-box-body">
         <p class="login-box-msg">
-            <?=Cii::$app->name?>
+            <?=Cii::t('app','loginHead')?>
         </p>
         <?php $form = ActiveForm::begin([
             'id' => 'login-form',
@@ -58,7 +58,7 @@ background:#d2d6de;
         </div>
         <div class="row">
             <div class="col-xs-8">
-                <div class="checkboxa icheck">
+                <div class="checkbox icheck">
                     <?= $form->field($model, 'rememberMe')->checkbox([
                         'template' => "{input} {label}"
                     ]) ?>
