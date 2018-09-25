@@ -17,6 +17,7 @@ class ThemeAsset extends \yii\web\AssetBundle
     ];
 
     public $js = [
+        'plugins/iCheck/icheck.min.js',
         'js/adminlte.min.js'
     ];
 
