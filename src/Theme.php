@@ -26,6 +26,8 @@ class Theme extends \codeup\base\Theme
         '{ctheme}container-fluid'    => 'container-fluid',
         '{ctheme}row'    => 'row',
         '{ctheme}col-'   => 'col-',
+        '{ctheme}nav'   => 'nav',
+        '{ctheme}tab'   => 'tab',
         '{ctheme}table'  => 'table',
 
         '{ctheme}btn'    => 'btn',
