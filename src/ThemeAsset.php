@@ -14,6 +14,7 @@ class ThemeAsset extends \yii\web\AssetBundle
     public $css = [
         'css/AdminLTE.min.css',
         'plugins/pace/pace.min.css',
+        'plugins/iCheck/all.css',
         'css/skins/_all-skins.min.css',
     ];
 
